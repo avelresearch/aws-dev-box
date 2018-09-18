@@ -13,9 +13,9 @@ class TestS3Actor(unittest.TestCase):
         conn = boto3.resource('s3', region_name='us-east-1')
         conn.create_bucket(Bucket='mybucket')
 
-        model_instance = MyModel('steve', 'is awesome')
+        model_instance = MyModel('steve', 'Some unique content')
         model_instance.save()
 
-        assert conn.Object('mybucket', 'steve').get()['Body'].read().decode() == 'is awesome'
+        assert conn.Object('mybucket', 'steve').get()['Body'].read().decode() == 'Some unique content'
 
         mock.stop()
