@@ -5,7 +5,6 @@ class MyModel(object):
 
 
     def __init__(self, name, value):
-        self.s3 = boto3.resource('s3')
         self.name = name
         self.value = value
 
@@ -13,7 +12,15 @@ class MyModel(object):
         s3 = boto3.client('s3', region_name='us-east-1')
         s3.put_object(Bucket='mybucket', Key=self.name, Body=self.value)
 
-    def scan_path(self):
-        bucket = self.s3.Bucket('mybucket')
-        objects = bucket.objects.filter(Prefix=self.name)
+    def scan(self):
+        s3 = boto3.client('s3', region_name='us-east-1')
+        s3.put_object(Bucket='mybucket', Key='tests/a.txt', Body='BodyA')
+        s3.put_object(Bucket='mybucket', Key='tests/b.txt', Body='BodyB')
+
+        _s3 = boto3.resource('s3')
+        bucket = _s3.Bucket('mybucket')
+
+        objects = bucket.objects.all()
+
+
         return objects

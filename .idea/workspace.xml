@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2bd317c-a081-4730-84a2-3e108e70212c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model_save_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_save_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymodule.py" beforeDir="false" afterPath="$PROJECT_DIR$/mymodule.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,9 +13,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/aws_dev_box$Unittests_for_model_save_test_TestS3Actor_test_my_model_save.coverage" NAME="Unittests for model_save_test.TestS3Actor.test_my_model_save Coverage Results" MODIFIED="1537298502520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aws_dev_box$Unittests_for_model_save_test_TestS3Actor_test_my_model_save.coverage" NAME="Unittests for model_save_test.TestS3Actor.test_my_model_save Coverage Results" MODIFIED="1537299532485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aws_dev_box$sales_s3.coverage" NAME="sales-s3 Coverage Results" MODIFIED="1537296818237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/aws_dev_box$Unittests_for_model_save_test_TestS3Actor.coverage" NAME="Unittests for model_save_test.TestS3Actor Coverage Results" MODIFIED="1537298508183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aws_dev_box$Unittests_for_model_save_test_TestS3Actor.coverage" NAME="Unittests for model_save_test.TestS3Actor Coverage Results" MODIFIED="1537298984546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aws_dev_box$Unittests_for_model_save_test_TestS3Actor_test_my_model_scan.coverage" NAME="Unittests for model_save_test.TestS3Actor.test_my_model_scan Coverage Results" MODIFIED="1537299760211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aws_dev_box$model_save_test.coverage" NAME="model_save_test Coverage Results" MODIFIED="1537297436967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CoverageViewManager">
@@ -50,7 +50,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="py" value="57" />
+          <entry key="py" value="259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -65,7 +65,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="57" />
+          <entry key="Python" value="259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -77,10 +77,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model_save_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="100" lean-forward="true" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+            <state relative-caret-position="594">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <marker date="1537299758256" expanded="true" signature="567:576" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,8 +90,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mymodule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="414">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <marker date="1537299735905" expanded="true" signature="541:546" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,6 +124,7 @@
       <list>
         <option value="$PROJECT_DIR$/mymodel.py" />
         <option value="$PROJECT_DIR$/sales-s3.py" />
+        <option value="$PROJECT_DIR$/mymodule.py" />
         <option value="$PROJECT_DIR$/model_save_test.py" />
       </list>
     </option>
@@ -163,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537298896500" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537299758330" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/opt/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -183,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for model_save_test.TestS3Actor">
+  <component name="RunManager" selected="Python tests.Unittests for model_save_test.TestS3Actor.test_my_model_scan">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -249,14 +254,31 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="aws-dev-box" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;model_save_test.TestS3Actor.test_my_model_scan&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for model_save_test.TestS3Actor" />
       <item itemvalue="Python tests.Unittests for model_save_test.TestS3Actor.test_my_model_save" />
+      <item itemvalue="Python tests.Unittests for model_save_test.TestS3Actor.test_my_model_scan" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for model_save_test.TestS3Actor" />
+        <item itemvalue="Python tests.Unittests for model_save_test.TestS3Actor.test_my_model_scan" />
         <item itemvalue="Python tests.Unittests for model_save_test.TestS3Actor.test_my_model_save" />
+        <item itemvalue="Python tests.Unittests for model_save_test.TestS3Actor" />
       </list>
     </recent_temporary>
   </component>
@@ -312,38 +334,44 @@
       <workItem from="1537292084445" duration="556000" />
       <workItem from="1537292943804" duration="2460000" />
       <workItem from="1537298057513" duration="37000" />
-      <workItem from="1537298266017" duration="567000" />
+      <workItem from="1537298266017" duration="1489000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_model_save_test_TestS3Actor - 2018.09.18 at 20h 04m 07s.xml">
-      <configuration name="Unittests for model_save_test.TestS3Actor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_model_save_test_TestS3Actor - 2018.09.18 at 20h 04m 11s.xml">
-      <configuration name="Unittests for model_save_test.TestS3Actor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_save - 2018.09.18 at 20h 04m 18s.xml">
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_save - 2018.09.18 at 20h 38m 53s.xml">
       <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_save" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_model_save_test_TestS3Actor - 2018.09.18 at 20h 14m 34s.xml">
-      <configuration name="Unittests for model_save_test.TestS3Actor" configurationId="tests" />
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_scan - 2018.09.18 at 20h 38m 58s.xml">
+      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_model_save_test_TestS3Actor - 2018.09.18 at 20h 18m 27s.xml">
-      <configuration name="Unittests for model_save_test.TestS3Actor" configurationId="tests" />
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_scan - 2018.09.18 at 20h 39m 15s.xml">
+      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_model_save_test_TestS3Actor - 2018.09.18 at 20h 20m 45s.xml">
-      <configuration name="Unittests for model_save_test.TestS3Actor" configurationId="tests" />
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_scan - 2018.09.18 at 20h 39m 58s.xml">
+      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_save - 2018.09.18 at 20h 21m 44s.xml">
-      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_save" configurationId="tests" />
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_scan - 2018.09.18 at 20h 40m 17s.xml">
+      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_model_save_test_TestS3Actor - 2018.09.18 at 20h 21m 49s.xml">
-      <configuration name="Unittests for model_save_test.TestS3Actor" configurationId="tests" />
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_scan - 2018.09.18 at 20h 40m 39s.xml">
+      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_scan - 2018.09.18 at 20h 41m 33s.xml">
+      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_scan - 2018.09.18 at 20h 41m 47s.xml">
+      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_scan - 2018.09.18 at 20h 42m 18s.xml">
+      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_model_save_test_TestS3Actor_test_my_model_scan - 2018.09.18 at 20h 42m 24s.xml">
+      <configuration name="Unittests for model_save_test.TestS3Actor.test_my_model_scan" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3620000" />
+    <option name="totallyTimeSpent" value="4542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="637" y="23" width="1923" height="1403" extended-state="0" />
@@ -398,17 +426,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mymodule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="414">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1537299735905" expanded="true" signature="541:546" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model_save_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="100" lean-forward="true" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+        <state relative-caret-position="594">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <marker date="1537299758256" expanded="true" signature="567:576" ph="..." />
           </folding>
         </state>
       </provider>
